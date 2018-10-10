@@ -15,5 +15,5 @@ client.logOn(logOnOptions);
 client.on('loggedOn', () => {
     console.log('success');
 
-    client.setPersona(steamUser.Steam.EPersonaState.Online, 'big men');
+    client.setPersona(steamUser.Steam.EPersonaState.Online, 'big mens');
 });
